@@ -1,0 +1,30 @@
+body {
+  margin : 0;
+  padding : 0;
+}
+.top-panel {
+  background-color: #008A00;
+  margin-top : -20px;
+  text-align: center;
+  padding : 1%;
+}
+
+.top-panel h1 {
+  padding-top: 10px;
+  color : #FFF;
+}
+
+.top-panel .submit {
+  position: absolute;
+  margin-top: -3.5em;
+  right : 30px;
+  padding: 10px;
+  background-color : #DDD;
+}
+.top-panel a {
+  text-decoration: none;
+}
+
+#jobs-list {
+  list-style-type: none;
+}
