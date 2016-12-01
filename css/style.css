@@ -4,22 +4,17 @@ body {
 }
 .top-panel {
   background-color: #008A00;
-  margin-top : -20px;
   text-align: center;
   padding : 1%;
 }
 
-.top-panel h1 {
+.top-panel h2 {
   padding-top: 10px;
   color : #FFF;
 }
 
 .top-panel .submit {
-  position: absolute;
-  margin-top: -3.5em;
-  right : 30px;
-  padding: 10px;
-  background-color : #DDD;
+  background-color: rgba(156, 204, 101, 0.88);
 }
 .top-panel a {
   text-decoration: none;
@@ -27,4 +22,12 @@ body {
 
 #jobs-list {
   list-style-type: none;
+}
+
+.card-image {
+  width: 150px;
+}
+
+.card-image img {
+  margin: auto;
 }

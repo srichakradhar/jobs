@@ -3,14 +3,62 @@
   <head>
     <title>Jobs Board - FreeCodeCamp Hyderbad</title>
     <link rel="shortcut icon" href="img/favicon.png">
-    <link rel="stylesheet" type="text/css" href="style.css"></link>
+
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
     <div class="top-panel">
-      <h1>Hyderabad Developer Jobs</h1>
-      <div class="submit"> <a href="https://docs.google.com/forms/d/e/1FAIpQLSfj7LCZTTrjJ5kRLShJYGAmrNK-aIaTU9yRSYygF9GNfcCBdg/viewform" target="_blank">Submit new job opening</a> </div>
+      <div class="row valign-wrapper">
+        <div class="col s3 valign">
+          <img src="img/fcc_hyd_white.png" height="100px" style="border-radius: 50%">
+        </div>
+        <div class="col s6 valign">
+          <h2>Hyderabad Developer Jobs</h2>
+        </div>
+        <div class="col s3 valign">
+          <a class="waves-effect waves-light btn-large submit" href="https://docs.google.com/forms/d/e/1FAIpQLSfj7LCZTTrjJ5kRLShJYGAmrNK-aIaTU9yRSYygF9GNfcCBdg/viewform" target="_blank"><i class="material-icons left">assignment_ind</i>Post a new job</a>
+        </div>
+      </div>
     </div>
-    <ul id="jobs-list">
+    <div class="container">
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image valign-wrapper">
+            <img class="valign" src="img/android.png" width="150" height="150">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <h3 class="header">Android Dev</h3>
+              <p>We're looking for an Android Developer to build our app with in the next two months.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Apply for this job</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image valign-wrapper">
+            <img  class="valign" src="img/FullStackTransparent.png" width="120" height="120">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <h3 class="header">Full Stack Developer</h3>
+              <p>We're looking for an Full Stack Remote Developer to build the MVP of our startup with in the next two months.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Apply for this job</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <ul id="jobs-list">
       <li>
         <h3> Android Dev </h3>
         <h5> Company : 50K Ventures </h5>
@@ -27,7 +75,9 @@
         <p class="description">We're looking for an Full Stack Remote Developer to build the MVP of our startup with in the next two months.</p>
         <button class="apply">Apply for this job</button>
       </li>
-    </ul>
-    <!-- <script src="main.js"></script> -->
+    </ul> -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <!-- <script src="js/main.js"></script> -->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
   </body>
 </html>
